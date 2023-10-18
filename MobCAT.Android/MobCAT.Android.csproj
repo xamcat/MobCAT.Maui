@@ -52,20 +52,28 @@
     <Compile Include="Services\ProgressService.cs" />
     <Compile Include="MainApplication.cs" />
     <Compile Include="IApplication.cs" />
+    <Compile Include="Services\BiometricAuthenticationService.cs" />
+    <Compile Include="Views\FingerprintManagerFragment.cs" />
+    <Compile Include="Helpers\CryptoObjectHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.2.0.5" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.1.5" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\strings.xml" />
+    <AndroidResource Include="Resources\drawable\ic_fp_40px.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
     <Folder Include="Services\" />
     <Folder Include="Views\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MobCAT\MobCAT.csproj">
