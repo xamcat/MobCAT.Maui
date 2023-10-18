@@ -23,4 +23,18 @@
     <ProjectReference Include="..\MobCAT\MobCAT.csproj" />
   </ItemGroup>
 
+   <ItemGroup>
+     <None Remove="Helpers\" />
+     <None Remove="Resources\drawable\" />
+   </ItemGroup>
+   <ItemGroup>
+     <Folder Include="Helpers\" />
+     <Folder Include="Resources\drawable\" />
+   </ItemGroup>
+   <ItemGroup>
+     <AndroidResource Update="Resources\drawable\ic_fp_40px.png">
+       <SubType></SubType>
+       <Generator></Generator>
+     </AndroidResource>
+   </ItemGroup>
 </Project>
