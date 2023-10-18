@@ -7,7 +7,6 @@
     <Authors>xamcat</Authors>
     <RepositoryUrl>https://github.com/xamcat/MobCAT.Maui</RepositoryUrl>
     <OutputType>Library</OutputType>
-    <UseMaui>true</UseMaui>
 	<ImplicitUsings>enable</ImplicitUsings>
 
     <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.2</SupportedOSPlatformVersion>
