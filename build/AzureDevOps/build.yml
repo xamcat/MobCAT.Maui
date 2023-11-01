@@ -33,7 +33,7 @@ stages:
         targetType: 'inline'
         script: |
           dotnet nuget locals all --clear
-          dotnet workload install maui macos ios wasm-tools
+          dotnet workload install maui android ios
 
     - task: Bash@3
       displayName: Restore nuget
