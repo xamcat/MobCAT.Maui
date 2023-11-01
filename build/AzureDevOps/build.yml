@@ -48,6 +48,7 @@ stages:
       inputs:
         targetType: 'inline'
         script: |
+          cd MobCAT
           dotnet pack MobCAT.csproj -c Release
 
     - task: CopyFiles@2
