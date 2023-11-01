@@ -2,7 +2,7 @@ name: buildCI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, singleproject ]
   pull_request:
     branches: [ main ]
 
