@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
    <PropertyGroup>
-    <TargetFrameworks>net7.0-android;net7.0-ios</TargetFrameworks>
+    <TargetFrameworks>net8.0-android;net8.0-ios</TargetFrameworks>
     <RootNamespace>MobCAT</RootNamespace>
     <Version>1.0.0</Version>
     <Authors>xamcat</Authors>
@@ -16,7 +16,7 @@
 
   </PropertyGroup>
 
-  <ItemGroup Condition="$(TargetFramework.StartsWith('net7.0-android')) != true">
+  <ItemGroup Condition="$(TargetFramework.StartsWith('net8.0-android')) != true">
     <Compile Remove="**\Android\**\*.cs" />
     <None Include="**\Android\**\*.cs" Exclude="$(DefaultItemExcludes);$(DefaultExcludesInProjectFolder)" />
   </ItemGroup>
@@ -28,7 +28,7 @@
     </AndroidResource>
   </ItemGroup>
 
-    <ItemGroup Condition="$(TargetFramework.StartsWith('net7.0-ios')) != true">
+    <ItemGroup Condition="$(TargetFramework.StartsWith('net8.0-ios')) != true">
         <Compile Remove="**\iOS\**\*.cs" />
         <None Include="**\iOS\**\*.cs" Exclude="$(DefaultItemExcludes);$(DefaultExcludesInProjectFolder)" />
     </ItemGroup>
