@@ -48,3 +48,9 @@ jobs:
         run: |
           cd MobCAT
           dotnet pack MobCAT.csproj -c Release
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: artifacts-nuget
+          path: |
+            **/*.nupkg
