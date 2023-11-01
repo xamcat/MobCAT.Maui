@@ -1,9 +1,9 @@
 ﻿using System;
-using MobCAT.iOS.Views;
+using MobCAT.Platforms.iOS.Views;
 using MobCAT.Services;
 using UIKit;
 
-namespace MobCAT.iOS.Services
+namespace MobCAT.Platforms.iOS.Services
 {
     public class ProgressService : IProgressService
     {

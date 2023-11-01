@@ -1,8 +1,6 @@
 ﻿using System;
-using Android.App;
-using Android.OS;
 
-namespace MobCAT.Android
+namespace MobCAT.Platforms.Android
 {
     public interface IApplication
     {

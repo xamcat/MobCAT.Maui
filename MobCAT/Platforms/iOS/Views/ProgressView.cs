@@ -1,8 +1,8 @@
 ﻿using System;
-using CoreGraphics;
-using UIKit;
+using Microsoft.Maui.Graphics;
+using System.Reflection.Emit;
 
-namespace MobCAT.iOS.Views
+namespace MobCAT.Platforms.iOS.Views
 {
     public class ProgressView : UIView
     {

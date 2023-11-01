@@ -1,9 +1,9 @@
 ﻿using System;
 using Android.App;
-using MobCAT.Android.Views;
 using MobCAT.Services;
+using MobCAT.Platforms.Android.Views;
 
-namespace MobCAT.Android.Services
+namespace MobCAT.Platforms.Android.Services
 {
     public class ProgressService : IProgressService
     {

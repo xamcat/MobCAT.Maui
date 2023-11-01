@@ -1,10 +1,12 @@
 ﻿using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Diagnostics;
 using LocalAuthentication;
 using MobCAT.Models;
 using MobCAT.Services.Abstractions;
 using System.Diagnostics;
 
-namespace MobCAT.iOS.Services
+namespace MobCAT.Platforms.iOS.Services
 {
     public class BiometricAuthenticationService : IBiometricAuthenticationService
     {

@@ -3,7 +3,7 @@ using Android.App;
 using Android.OS;
 using Android.Runtime;
 
-namespace MobCAT.Android
+namespace MobCAT.Platforms.Android
 {
     [Application]
     public class MainApplication : Application, Application.IActivityLifecycleCallbacks

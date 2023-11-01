@@ -5,7 +5,7 @@ using AndroidX.Core.Hardware.Fingerprint;
 using Java.Security;
 using Javax.Crypto;
 
-namespace MobCAT.Android.Helpers
+namespace MobCAT.Platforms.Android.Helpers
 {
     internal class CryptoObjectHelper
     {

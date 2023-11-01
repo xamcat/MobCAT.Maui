@@ -1,17 +1,17 @@
 ﻿using System;
-using Android.App;
+using System.Diagnostics;
+using System.Threading.Tasks;
 using AndroidX.Core.Content;
 using AndroidX.Core.Hardware.Fingerprint;
 using MobCAT.Models;
 using MobCAT.Services.Abstractions;
-using System.Threading.Tasks;
 using Permission = Android.Content.PM.Permission;
 using Android;
 using System.Diagnostics;
 using Android.Content;
-using MobCAT.Android.Views;
+using MobCAT.Platforms.Android.Views;
 
-namespace MobCAT.Android.Services
+namespace MobCAT.Platforms.Android.Services
 {
     public class BiometricAuthenticationService : IBiometricAuthenticationService
     {

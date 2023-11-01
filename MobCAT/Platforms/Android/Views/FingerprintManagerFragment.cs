@@ -5,11 +5,11 @@ using AndroidX.Core.Hardware.Fingerprint;
 using Java.Lang;
 using Javax.Crypto;
 using MobCAT.Models;
-using MobCAT.Android.Helpers;
+using MobCAT.Platforms.Android.Helpers;
 using Debug = System.Diagnostics.Debug;
 using CancellationSignal = AndroidX.Core.OS.CancellationSignal;
 
-namespace MobCAT.Android.Views
+namespace MobCAT.Platforms.Android.Views
 {
     public class FingerprintManagerFragment : DialogFragment, IDialogInterfaceOnShowListener
     {
