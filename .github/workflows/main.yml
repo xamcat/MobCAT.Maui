@@ -18,12 +18,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      # - name: Setup .NET SDK ${{env.DOTNETVERSION}}
-      #   uses: actions/setup-dotnet@v1
-      #   with:
-      #     dotnet-version:  '${{env.DOTNETVERSION}}'
-
-
       - name: Install .NET 8
         shell: bash
         run: |
