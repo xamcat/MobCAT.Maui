@@ -57,9 +57,17 @@ stages:
         Contents: |
           **/*.nupkg
         TargetFolder: '$(Build.ArtifactStagingDirectory)'
+        
+    
+    # - task: DotNetCoreCLI@2
+    #   inputs:
+    #     command: 'push'
+    #     packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
+    #     nuGetFeedType: 'internal'
 
     - task: PublishBuildArtifacts@1
       inputs:
         PathtoPublish: '$(Build.ArtifactStagingDirectory)'
         ArtifactName: 'drop_nuget'
         publishLocation: 'Container'
+        
